@@ -6,7 +6,7 @@
 /*   By: elvmarti <elvmarti@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/03/15 15:58:50 by elvmarti          #+#    #+#             */
-/*   Updated: 2021/03/16 15:46:34 by elvmarti         ###   ########.fr       */
+/*   Updated: 2021/06/12 22:49:27 by elvmarti         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,7 +48,7 @@ static char	*ft_conv(unsigned int num, int min_may, unsigned int aux, int count)
 	return (cad_hex);
 }
 
-char		*ft_conv_hex(unsigned int num, const char *main_s, t_printf *p)
+char	*ft_conv_hex(unsigned int num, const char *main_s, t_printf *p)
 {
 	unsigned int	aux;
 	int				count;

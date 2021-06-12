@@ -6,14 +6,18 @@
 #    By: elvmarti <elvmarti@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2020/12/28 15:25:56 by elvmarti          #+#    #+#              #
-#    Updated: 2021/03/17 17:07:27 by elvmarti         ###   ########.fr        #
+#    Updated: 2021/06/12 22:49:47 by elvmarti         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME = libftprintf.a
+
 SONAME = libftprintf.so
+
 FLAGS = -Wall -Wextra -Werror -I. -c
+
 RM = rm -f
+
 FILES = ft_printf.c \
 		ft_print_char.c \
 		ft_print_d_i.c \
